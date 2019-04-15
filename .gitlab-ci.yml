@@ -1,0 +1,25 @@
+stages:
+  - build
+  
+cache:
+  paths:
+  - ./basehelp/*
+
+build-146:
+  stage: build
+  tags:
+  - wisdom-base
+  script:
+  - cnpm install
+  - npm run build
+  - chmod -R 755 *
+  - rm -rf /var/www/html/basehelp/*
+  - mv -f ./basehelp/* /var/www/html/basehelp/
+  - chmod -R 755 *
+  when: manual
+
+
+
+
+
+

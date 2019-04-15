@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "vuepress dev docs",
+		"build": "vuepress build docs env_name=dev",
+		"build:check": "vuepress build docs env_name=check",
+		"build:experience": "vuepress build docs env_name=experience",
+		"build:formal": "vuepress build docs env_name=formal"
+  },
+  "devDependencies": {
+    "vuepress": "^0.14.9"
+  }
+}
