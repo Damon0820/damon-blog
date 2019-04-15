@@ -1,17 +1,15 @@
 ---
 home: true
-# heroImage: /logo.png
-actionText: 快速上手 →
-actionLink: /helpBook/
+heroImage:
+actionText: 走起 →
+actionLink: /web/js/
 features:
-- title: 基本概念
-  details: 倍思智慧教学管理云平台的基本概念
-- title: 工作流程
-  details: 使用云平台进行教学管理的工作流程
-- title: 角色说明
-  details: 各个角色的工作台使用说明
-footer: Copyright © 2018 倍思教育科技
+- title: 自我描述
+  details: 一个有漂亮女朋友的程序员
+- title: 项目介绍
+  details: 基于vuepress快速开发静态站点的博客。
+- title: 项目目标
+  details: 记录学习过程中的一些知识点
+footer: Copyright © 2019 Damon
 ---
-
-<!-- # 倍思教学管理云平台 -->
  
